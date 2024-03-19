@@ -1,0 +1,38 @@
+*{
+    color: blueviolet;
+}
+
+h1{
+    color: blue;
+}
+
+/* this is a comment */
+
+
+
+/* My css color specification
+my brand olor:aqua
+my fontneeds to e Times New Roman */
+
+p{
+    color: aquamarine;
+}
+
+h2{
+    color: hotpink;
+}
+
+span{
+    color: aqua;
+}
+
+[data-email="email"]{
+    color: bisque;
+}
+
+ul>li{
+    color: pink;
+}
+li>strong{
+    color: lightskyblue;
+}
