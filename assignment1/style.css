@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    color: rgb(134, 18, 18);
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    color: #ff0000;
+}
+
+a {
+    color: #ade8f4;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(249, 204, 38);
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+h3 {
+    font-size: 25px;
+    
+}
+
+h4{
+width:500px;
+color: #ffd19d;
+}
+
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
