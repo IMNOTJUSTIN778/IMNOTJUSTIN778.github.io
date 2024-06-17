@@ -1,0 +1,79 @@
+<!--The aim of this page was to present an impressive rotating gallery of "Eren's Memory" themes through well-designed animations and layouts. The goal was to present a dynamic and visually compelling user interface while highlighting some of the key characters from Attack on Titan. Below are the considerations behind the design of each section and the desired effect:
+1.Cyber Font and Flicker Effect:
+Reason: The Orbitron font and Cyber blinking effect were chosen to convey a sense of futurism and technology. This echoes the complex technological background and mystery of Attack on Titan.
+Effect: The blinking effect makes the headline more dynamic and visually appealing, grabbing the user's attention and creating an atmosphere of tension and anticipation.
+
+2.Rotating gallery:
+WHY: Using a 3D rotating gallery to display images provides an interactive and immersive experience, enabling users to view different characters at the click of a button.
+EFFECT: This rotating effect brings the gallery to life, giving the page a modern and cutting-edge feel while also enhancing user engagement.
+
+3.Background pulsing animation:
+WHY: The pulsing change in background color is designed to add a sense of dynamism to the page, making a static page look more vibrant and layered.
+EFFECT: The background pulsing animation adds a subtle sense of motion to the page, making the entire page look more lively and complementing the rotating gallery.
+
+4.Button Design:
+WHY: The buttons were designed using eye-catching colors and simple shapes to ensure that users can easily find and use them.
+EFFECT: The brightness increase effect on hover provides immediate feedback to the user and enhances the clickability and interactivity of the buttons.
+Overall, the page successfully conveys a technologically and visually appealing theme through well-designed animations and styles. It not only showcases key characters from Attack on Titan, but also provides an interactive user experience that allows viewers to navigate the content in a dynamic and immersive environment. The design combines futuristic elements and dynamic effects to capture users' attention and enhance their browsing experience.
+
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="image-container">
+      <span style="--i: 1">
+        <img
+          src="images/三笠.png"
+        />
+      </span>
+      <span style="--i: 2">
+        <img
+          src="images/兵长.png"
+        />
+      </span>
+      <span style="--i: 3">
+        <img
+          src="images/艾伦爸爸.png"
+        />
+      </span>
+      <span style="--i: 4">
+        <img
+          src="images/莱纳.png"
+        />
+      </span>
+      <span style="--i: 5">
+        <img
+          src="images/让.png"
+        />
+      </span>
+      <span style="--i: 6">
+        <img
+          src="images/阿尔明.png"
+        />
+      </span>
+      <span style="--i: 7">
+        <img
+          src="images/阿尼.png"
+        />
+      </span>
+      <span style="--i: 8">
+        <img
+          src="images/韩吉.png"
+        />
+      </span>
+    </div>
+
+    <div class="btn-container">
+      <button class="btn" id="prev">Prev</button>
+      <button class="btn" id="next">Next</button>
+    </div>
+
+    <script src="scrip.js"></script>
+  </body>
+</html>
